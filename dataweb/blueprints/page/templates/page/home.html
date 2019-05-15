@@ -1,0 +1,33 @@
+{% extends 'layouts/app.html' %}
+
+{% block title %}Get the Data you need.{% endblock %}
+{% block meta_description %}Get Data and Analytics.{% endblock %}
+
+{% block body %}
+  <div class="container sm-margin-top">
+    <div class="row text-center lg-margin-bottom">
+      <h1>Need Data?</h1>
+      <h3 class="text-muted">
+        Gain access to the data and analytics today.
+      </h3>
+    </div>
+    <div class="row text-center">
+      <div class="col-lg-4">
+        <i class="fa fa-fw fa-4x fa-database text-primary"></i>
+        <h2>Download Data</h2>
+        <p class="text-muted">Gain access to data.</p>
+        <p>
+          <a href="{{ url_for('user.signup') }}" class="btn btn-default">Sign up</a>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fa fa-fw fa-4x fa-bar-chart text-primary"></i>
+        <h2>Get Analytics</h2>
+        <p class="text-muted">Download Analysis files for the data.</p>
+        <p>
+          <a href="{{ url_for('user.signup') }}" class="btn btn-default">Sign up</a>
+        </p>
+      </div>
+    </div>
+  </div>
+{% endblock %}
