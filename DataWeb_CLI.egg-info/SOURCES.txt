@@ -1,0 +1,9 @@
+DataWeb_CLI.egg-info/PKG-INFO
+DataWeb_CLI.egg-info/SOURCES.txt
+DataWeb_CLI.egg-info/dependency_links.txt
+DataWeb_CLI.egg-info/entry_points.txt
+DataWeb_CLI.egg-info/requires.txt
+DataWeb_CLI.egg-info/top_level.txt
+cli/__init__.py
+cli/cli.py
+cli/commands/__init__.py
